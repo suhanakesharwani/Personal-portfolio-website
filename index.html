@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suhana | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+  </head>
+  <body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 font-sans scroll-smooth">
+    <header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-purple-600 dark:text-purple-400">Suhana</h1>
+        <nav class="space-x-6 text-sm font-medium">
+          <a href="#about" class="hover:text-purple-600 dark:hover:text-purple-400">About</a>
+          <a href="#projects" class="hover:text-purple-600 dark:hover:text-purple-400">Projects</a>
+          <a href="#contact" class="hover:text-purple-600 dark:hover:text-purple-400">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="flex flex-col items-center justify-center text-center min-h-[90vh] px-6 bg-gradient-to-br from-purple-50 to-white dark:from-gray-900 dark:to-gray-800">
+      <h2 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">Hi, I'm Suhana</h2>
+      <p class="text-lg md:text-xl max-w-xl text-gray-600 dark:text-gray-300">
+        A developer passionate about AI, frontend development, and creating beautiful smart apps.
+      </p>
+      <a href="#projects" class="mt-8 inline-block px-6 py-3 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition">View My Work</a>
+    </section>
+
+    <section id="about" class="px-6 py-20 bg-white dark:bg-gray-900 text-center">
+      <h3 class="text-3xl font-bold mb-6">About Me</h3>
+      <p class="max-w-2xl mx-auto leading-relaxed text-gray-700 dark:text-gray-300">
+        I'm a 2nd-year IT student at MAIT exploring AI, ML, and frontend development. I love solving real-world problems by blending design and intelligence to build responsive, impactful products.
+      </p>
+    </section>
+
+    <section id="projects" class="px-6 py-20 bg-gray-50 dark:bg-gray-800 text-center">
+        <h3 class="text-3xl font-bold mb-12 text-gray-900 dark:text-white">Projects</h3>
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+
+          <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300 hover:shadow-xl">
+            <h4 class="text-xl font-semibold mb-2 text-purple-600 dark:text-purple-400">MindEase</h4>
+            <p class="text-gray-600 dark:text-gray-300">A mental health support chatbot that detects stress/anxiety using Transformers & Sentiment Analysis. Built with Flask and NLP.</p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300 hover:shadow-xl">
+            <h4 class="text-xl font-semibold mb-2 text-purple-600 dark:text-purple-400">Health Diagnosis Chatbot</h4>
+            <p class="text-gray-600 dark:text-gray-300">An AI chatbot that predicts potential health conditions from symptoms using a trained RandomForest model and Flask.</p>
+          </div>
+          
+          <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300 hover:shadow-xl">
+            <h4 class="text-xl font-semibold mb-2 text-purple-600 dark:text-purple-400">Quote Generator</h4>
+            <p class="text-gray-600 dark:text-gray-300">A minimal, responsive app that displays random inspirational quotes with dark mode support.</p>
+          </div>
+          
+          <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300 hover:shadow-xl">
+            <h4 class="text-xl font-semibold mb-2 text-purple-600 dark:text-purple-400">Razorpay Clone</h4>
+            <p class="text-gray-600 dark:text-gray-300">Responsive payment page inspired by Razorpay’s design.</p>
+          </div>
+        
+          
+          <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300 hover:shadow-xl">
+            <h4 class="text-xl font-semibold mb-2 text-purple-600 dark:text-purple-400">Portfolio Site</h4>
+            <p class="text-gray-600 dark:text-gray-300">Personal portfolio with Tailwind CSS & smooth UI.</p>
+          </div>
+          
+          <div class="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300 hover:shadow-xl">
+            <h4 class="text-xl font-semibold mb-2 text-purple-600 dark:text-purple-400">Notes App</h4>
+            <p class="text-gray-600 dark:text-gray-300">Minimalist notes app with local storage support.</p>
+          </div>
+      
+        </div>
+      </section>
+      
+
+    <section id="contact" class="px-6 py-20 bg-white dark:bg-gray-900 text-center">
+      <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+      <p class="mb-6 text-gray-700 dark:text-gray-300">Open to internships and collaborations!</p>
+      <a href="mailto:suhanakesharwani@gmail.com" class="inline-block px-6 py-3 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition">Email Me</a>
+    </section>
+
+    <footer class="bg-gray-900 text-white text-center py-6 text-sm dark:bg-black">
+      <p>&copy; 2025 Suhana. Built with 💜 & Tailwind CSS.</p>
+    </footer>
+  </body>
+</html>
